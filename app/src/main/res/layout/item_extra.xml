@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="60dp"
+	android:layout_marginLeft="8dp"
+	android:layout_marginRight="8dp"
+	android:background="@drawable/button_transparent_default_border">
+
+	<TextView
+		android:id="@+id/textViewExtraNameCount"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		android:layout_marginLeft="8dp"
+		android:layout_marginStart="8dp"
+		android:textSize="18sp"
+		android:textColor="@color/colorPrimaryDark"
+		android:gravity="start" />
+	
+	<ImageView
+		android:id="@+id/imageViewArrowUpDown"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		android:contentDescription="@string/content_description_go_icon"
+		android:layout_marginRight="8dp"
+		android:layout_marginEnd="8dp"
+		app:srcCompat="@drawable/ic_keyboard_arrow_right_dark_24dp" />
+
+</android.support.constraint.ConstraintLayout>

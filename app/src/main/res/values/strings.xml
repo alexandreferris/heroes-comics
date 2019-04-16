@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Heroes &amp; Comics</string>
+
+	<string name="data_provided_marvel">Data provided by Marvel. © 2014 Marvel</string>
+
+    <string name="search_hero">Which hero do you want to search?</string>
+
+	<string name="error_loading">Sorry!\nThe requested data couldn\'t be loaded.</string>
+    <string name="error_loading_heroes">Sorry!\nThe heroes couldn\'t be loaded.</string>
+	<string name="error_loading_comics">Sorry!\nThe comics couldn\'t be loaded.</string>
+	<string name="error_loading_series">Sorry!\nThe series couldn\'t be loaded.</string>
+	<string name="error_loading_stories">Sorry!\nThe stories couldn\'t be loaded.</string>
+	<string name="error_loading_events">Sorry!\nThe events couldn\'t be loaded.</string>
+    <string name="error_load_more">Load More</string>
+    <string name="error_search_no_result">We couldn\'t find any hero based on your search.</string>
+    <string name="error_try_again">Try Again</string>
+
+	<string name="extra_count">%1$s (%2$d)</string>
+	<string name="image_description_selected_hero">Image of the Selected Hero</string>
+	<string name="image_description_selected_generic">Image of the Extra Selected</string>
+
+	<string name="comics_title">Comics - %1$s</string>
+	<string name="series_title">Series - %1$s</string>
+	<string name="stories_title">Stories - %1$s</string>
+	<string name="events_title">Events - %1$s</string>
+
+	<string name="creator_name">%1$s %2$s</string>
+
+	<string name="content_description_go_icon">Go Icon</string>
+</resources>
